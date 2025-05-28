@@ -42,6 +42,17 @@ This project was born to help:
 - Git
 
 ---
+<div class="section">
+    <h2>📁 Project Structure</h2>
+    <pre><code>crimepredictor-ui/
+├── app.py
+├── Final.csv
+├── requirements.txt
+├── runtime.txt
+├── README.md
+└── screenshots/</code></pre>
+  </div>
+
 
 ### 💾 Installation
 
@@ -49,10 +60,6 @@ This project was born to help:
 # Clone the repository
 git clone https://github.com/Aryaa007/crimepredictor-ui.git
 cd crimepredictor-ui
-
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
