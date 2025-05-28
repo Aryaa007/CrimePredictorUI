@@ -48,9 +48,7 @@ This project was born to help:
 ├── app.py
 ├── Final.csv
 ├── requirements.txt
-├── runtime.txt
-├── README.md
-└── screenshots/</code></pre>
+── README.md
   </div>
 
 
