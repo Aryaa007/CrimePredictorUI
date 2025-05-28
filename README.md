@@ -1,11 +1,6 @@
 <h1 align="center">🛡️ CRIMEPREDICTORUI</h1>
-<p align="center"><em>Empower Communities with Insightful Crime Risk Awareness</em></p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/your-username/crimepredictor-ui?color=blue&label=last%20commit">
-  <img src="https://img.shields.io/github/languages/top/your-username/crimepredictor-ui?color=orange">
-  <img src="https://img.shields.io/github/languages/count/your-username/crimepredictor-ui?color=green">
-</p>
+<p align="center"><em>Empower Communities with Insightful Crime Risk Awareness</em></p>
 
 <p align="center"><strong>Built with the tools and technologies:</strong></p>
 
@@ -19,21 +14,6 @@
 
 ---
 
-## 📚 Table of Contents
-
-- [📖 Overview](#overview)
-- [❓ Why CrimePredictor](#why-crimepredictor)
-- [⚙️ Getting Started](#getting-started)
-  - [🧰 Prerequisites](#prerequisites)
-  - [💾 Installation](#installation)
-  - [🚀 Usage](#usage)
-  - [🧪 Testing](#testing)
-- [🧠 Technologies Used](#technologies-used)
-- [📁 Project Structure](#project-structure)
-- [📸 Screenshots](#screenshots)
-- [📬 Contact](#contact)
-
----
 
 ## 📖 Overview
 
@@ -70,6 +50,18 @@ Make sure you have these installed:
 - Git
 - pip
 
+  ### 💾 Installation
+
+
+crimepredictor-ui/
+├── app.py                  # Main Streamlit app
+├── Final.csv               # Dataset used (crime, demographics, geocoords)
+├── requirements.txt        # Python packages
+├── runtime.txt             # Python version for deployment (optional)
+├── README.md               # This file
+└── screenshots/            # Optional visuals
+
+
 ### 💾 Installation
 
 ```bash
@@ -77,9 +69,7 @@ Make sure you have these installed:
 git clone https://github.com/your-username/crimepredictor-ui.git
 cd crimepredictor-ui
 
-# 2. (Optional) Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 3. Install dependencies
+# 2. Install dependencies
 pip install -r requirements.txt
+
+
